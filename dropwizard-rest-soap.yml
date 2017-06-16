@@ -1,0 +1,13 @@
+server:
+  type: simple
+  applicationContextPath: /
+  adminContextPath: /admin
+  connector:
+    type: http
+    port: 3003
+
+soapServer:
+  baseUrl: http://localhost:5000/
+
+soapClient:
+  baseUrl: http://localhost:8888/
